@@ -1,0 +1,31 @@
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+a:hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: scale(1.03);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+a:active {
+  transform: scale(0.96);
+}
+
+img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}

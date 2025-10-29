@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giovanni Parrota – Product Builder & SaaS Launcher</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Space Grotesk', sans-serif;
+      }
+      a:hover {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        transform: scale(1.03);
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+      }
+      a:active {
+        transform: scale(0.96);
+      }
+      img:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #4a5568;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body class="antialiased text-gray-800 bg-white">
+    <!-- Header / Hero -->
+    <header class="relative bg-gradient-to-tr from-slate-900 via-slate-800 to-slate-700 text-white py-24 px-6">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-bold leading-tight mb-4">Giovanni Parrota</h1>
+          <p class="text-gray-400 text-sm mt-2">
+            Actively looking for a full-time role as a Product Builder / SaaS Operator.
+            </p>
+          <h2 class="text-xl sm:text-2xl font-medium text-blue-300 mb-6">Product Builder & SaaS Launcher</h2>
+          <p class="text-slate-200 mb-8 max-w-md">
+            I build and launch ready-to-sell SaaS tools in 72 hours using AI, Laravel,
+            PHP and custom UI. Bringing concepts to life quickly with a focus on
+            aesthetics and user experience.
+          </p>
+
+          
+          <a
+            href="#contact"
+            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300"
+          >
+            Let’s Work Together
+          </a>
+        </div>
+        <div class="flex justify-center lg:justify-end">
+          <img
+            src="images/4884785.jpg"
+            alt="Giovanni Illustration"
+            class="w-full max-w-sm rounded-xl shadow-2xl"
+          />
+        </div>
+      </div>
+    </header>
+
+    
+<!-- About Section -->
+<section id="about" class="py-24 px-6 bg-gradient-to-br from-gray-100 to-white relative z-10">
+  <div class="max-w-6xl mx-auto text-center">
+    <h3 class="text-4xl font-extrabold text-slate-800 mb-4 tracking-tight">About Me</h3>
+    <p class="text-gray-600 text-lg max-w-3xl mx-auto mb-12">
+      I’m a full-stack product builder with over 10 successful SaaS flips. I turn ideas into profitable launches using a mix of AI tools, Laravel, Stripe integrations, and sharp UX/UI design—all done within 72 hours.
+    </p>
+
+    <!-- Interactive Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16" id="aboutCards">
+      <!-- Card 1 -->
+      <div class="about-card group bg-white cursor-pointer backdrop-blur border border-slate-200 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-[1.025] transition-all duration-300" data-image="/images/mvp1.jpg">
+        <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4 -4m5 -2a9 9 0 11-18 0a9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h4 class="text-lg font-semibold text-slate-800 mb-1">Fast MVP Execution</h4>
+        <p class="text-sm text-gray-600">I ship functional MVPs in days, not months—fully branded and ready to sell.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="about-card group bg-white cursor-pointer backdrop-blur border border-slate-200 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-[1.025] transition-all duration-300" data-image="/images/about-ui.png">
+        <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 4h-3a1 1 0 00-1 1v10a1 1 0 001 1h3m5-6l-2.586-2.586a2 2 0 00-2.828 0L12 9l1.414 1.414a2 2 0 002.828 0L18 9m1 1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2" />
+          </svg>
+        </div>
+        <h4 class="text-lg font-semibold text-slate-800 mb-1">UI-First Mentality</h4>
+        <p class="text-sm text-gray-600">I design interfaces that look great and convert. Tailwind CSS is my canvas.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="about-card group bg-white cursor-pointer backdrop-blur border border-slate-200 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-[1.025] transition-all duration-300" data-image="/images/about-tech.png">
+        <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h4a1 1 0 011 1v10m4-10h4a1 1 0 011 1v10m4-10h4a1 1 0 011 1v10" />
+          </svg>
+        </div>
+        <h4 class="text-lg font-semibold text-slate-800 mb-1">Technical Integrations</h4>
+        <p class="text-sm text-gray-600">Hosting setup, payment gateways, custom admin—handled from start to finish.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="about-card group bg-white cursor-pointer backdrop-blur border border-slate-200 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-[1.025] transition-all duration-300" data-image="/images/about-founder.png">
+        <div class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9v10a1 1 0 001 1h10a1 1 0 001-1V9m-2 3h4m-4-4h4m-4 8h4M4 7h16" />
+          </svg>
+        </div>
+        <h4 class="text-lg font-semibold text-slate-800 mb-1">Team-Ready</h4>
+        <p class="text-sm text-gray-600">I work directly with founders to execute fast and keep things lean & scalable.</p>
+      </div>
+    </div>
+
+    <!-- Dynamic Preview Image -->
+    <div class="w-full max-w-4xl mx-auto">
+      <img id="aboutPreview" src="/images/about-mvp.png" class="rounded-xl shadow-xl mx-auto transition-opacity duration-500 opacity-100" alt="Preview">
+    </div>
+  </div>
+</section>
+
+<!-- JavaScript -->
+<script>
+  const cards = document.querySelectorAll('.about-card');
+  const preview = document.getElementById('aboutPreview');
+
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      const newImg = card.getAttribute('data-image');
+      preview.classList.add('opacity-0');
+      setTimeout(() => {
+        preview.setAttribute('src', newImg);
+        preview.classList.remove('opacity-0');
+      }, 200);
+    });
+  });
+</script>
+
+
+
+<!-- Featured Projects Section -->
+<section id="projects" class="bg-gradient-to-b from-slate-900 to-slate-800 py-24 px-6 text-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="uppercase text-blue-400 text-sm tracking-widest mb-2">Work</p>
+      <h2 class="text-4xl font-bold mb-4">Featured Projects</h2>
+      <p class="text-slate-300 max-w-2xl mx-auto">
+        Real SaaS tools shipped, sold, and scaled. Each one built with speed, design, and conversion in mind.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+      <!-- Project Card -->
+      <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-lg group transition-all hover:shadow-2xl hover:scale-[1.02] duration-300">
+        <div class="aspect-video overflow-hidden">
+          <img src="/images/postflow.png" alt="Project 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-white">PostFlowAI</h3>
+          <p class="text-slate-400 text-sm mb-4">Create. Post. Grow. PostFlowAI helps you craft powerful LinkedIn & Twitter content, schedule it smartly, and stay consistent</p>
+          <div class="flex flex-wrap gap-2 text-xs text-blue-300 mb-4">
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Laravel</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Html</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Tailwind</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Stripe</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Paypal</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Api</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">X</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Youtube</span>
+          </div>
+          <div class="flex justify-between text-sm text-blue-400">
+            <a href="https://postflowai.com/" class="hover:underline">Live Demo</a>
+            <a href="#" class="hover:underline">View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate for additional projects -->
+      <!-- Just change image src, title, description, stack tags, and links -->
+
+      <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-lg group transition-all hover:shadow-2xl hover:scale-[1.02] duration-300">
+        <div class="aspect-video overflow-hidden">
+          <img src="/images/coursecastai.png" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-white">CourseCastAI</h3>
+          <p class="text-slate-400 text-sm mb-4">Convert Text Prompt into a full Generated podcast episodes with automated AI tools.</p>
+          <div class="flex flex-wrap gap-2 text-xs text-blue-300 mb-4">
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">PHP</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Html</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">OpenAI</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Cron Jobs</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Api</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">ElevenLabs</span>
+          </div>
+          <div class="flex justify-between text-sm text-blue-400">
+            <a href="#" class="hover:underline">Live Demo</a>
+            <a href="#" class="hover:underline">View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-lg group transition-all hover:shadow-2xl hover:scale-[1.02] duration-300">
+        <div class="aspect-video overflow-hidden">
+          <img src="/images/imageprokit.png" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-white">imageprokit</h3>
+          <p class="text-slate-400 text-sm mb-4">All-in-One image converter kit.</p>
+          <div class="flex flex-wrap gap-2 text-xs text-blue-300 mb-4">
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">PHP</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Html</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Cron Jobs</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Stripe</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Imagick</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">ImageMagick</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">GhostScript</span>
+          </div>
+          <div class="flex justify-between text-sm text-blue-400">
+            <a href="#" class="hover:underline">Live Demo</a>
+            <a href="#" class="hover:underline">View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-lg group transition-all hover:shadow-2xl hover:scale-[1.02] duration-300">
+        <div class="aspect-video overflow-hidden">
+          <img src="/images/ranxii.png" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-white">Ranxii</h3>
+          <p class="text-slate-400 text-sm mb-4">AI-Powered Copywriting Partner</p>
+          <div class="flex flex-wrap gap-2 text-xs text-blue-300 mb-4">
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">PHP</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">OpenAI</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Cron Jobs</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Laravel</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Api</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Html</span>
+          </div>
+          <div class="flex justify-between text-sm text-blue-400">
+            <a href="https://ranxii.com/" class="hover:underline">Live Demo</a>
+            <a href="#" class="hover:underline">View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-lg group transition-all hover:shadow-2xl hover:scale-[1.02] duration-300">
+        <div class="aspect-video overflow-hidden">
+          <img src="/images/rankgenai.png" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-white">RankGenAI</h3>
+          <p class="text-slate-400 text-sm mb-4">RankGenAI helps creators and marketers write, optimize, and grow their online presence</p>
+          <div class="flex flex-wrap gap-2 text-xs text-blue-300 mb-4">
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">PHP</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">OpenAI</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Cron Jobs</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Laravel</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Api</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Html</span>
+          </div>
+          <div class="flex justify-between text-sm text-blue-400">
+            <a href="https://rankgenai.com/" class="hover:underline">Live Demo</a>
+            <a href="#" class="hover:underline">View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-lg group transition-all hover:shadow-2xl hover:scale-[1.02] duration-300">
+        <div class="aspect-video overflow-hidden">
+          <img src="/images/hiremintai.png" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2 text-white">HiremintAI</h3>
+          <p class="text-slate-400 text-sm mb-4">AI RESUME KIT.</p>
+          <div class="flex flex-wrap gap-2 text-xs text-blue-300 mb-4">
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">PHP</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">OpenAI</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Laravel</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Api</span>
+            <span class="bg-blue-500/10 px-2 py-1 rounded-md">Html</span>
+          </div>
+          <div class="flex justify-between text-sm text-blue-400">
+            <a href="https://hiremintai.com/" class="hover:underline">Live Demo</a>
+            <a href="#" class="hover:underline">View Case Study</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Add up to 10 projects in same style -->
+    </div>
+  </div>
+</section>
+
+<!-- AOS CSS CDN -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- What I Offer Section -->
+<section id="services" class="py-24 px-6 bg-[#0c1120] text-white relative">
+  <div class="max-w-5xl mx-auto text-center">
+    <p class="text-sm text-blue-400 tracking-wide uppercase mb-2">Services</p>
+    <h2 class="text-4xl font-extrabold mb-4">What I Offer</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto mb-16">
+      Step-by-step value I bring when working with founders, startups, or scaling SaaS.
+    </p>
+  </div>
+
+  <div class="relative max-w-5xl mx-auto">
+    <!-- Vertical Line -->
+    <div class="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-blue-600"></div>
+
+    <!-- Timeline Items -->
+    <div class="space-y-16">
+
+      <!-- Item 1 -->
+      <div class="flex flex-col md:flex-row items-center md:justify-between group">
+        <div class="w-full md:w-1/2 md:pr-8 text-right md:text-left md:items-end flex flex-col items-end aos-init" data-aos="fade-right">
+          <div class="bg-slate-800 rounded-lg p-6 shadow-md max-w-md">
+            <h4 class="text-lg font-semibold text-white mb-1">⚡ MVP in 72h</h4>
+            <p class="text-sm text-slate-300">Build and deploy full SaaS tools ready to sell or scale — in record time. Branding and Stripe included.</p>
+          </div>
+        </div>
+        <div class="relative z-10">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white text-sm font-bold border-4 border-slate-900">1</div>
+        </div>
+        <div class="w-full md:w-1/2"></div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="flex flex-col md:flex-row items-center md:justify-between group">
+        <div class="w-full md:w-1/2"></div>
+        <div class="relative z-10">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white text-sm font-bold border-4 border-slate-900">2</div>
+        </div>
+        <div class="w-full md:w-1/2 md:pl-8 text-left flex flex-col items-start aos-init" data-aos="fade-left">
+          <div class="bg-slate-800 rounded-lg p-6 shadow-md max-w-md">
+            <h4 class="text-lg font-semibold text-white mb-1">🎨 Rebranding & UI Polish</h4>
+            <p class="text-sm text-slate-300">Turn any script into a premium product with clean UI, UX consistency and modern identity.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="flex flex-col md:flex-row items-center md:justify-between group">
+        <div class="w-full md:w-1/2 md:pr-8 text-right md:text-left flex flex-col items-end aos-init" data-aos="fade-right">
+          <div class="bg-slate-800 rounded-lg p-6 shadow-md max-w-md">
+            <h4 class="text-lg font-semibold text-white mb-1">🧠 Stripe & Backend</h4>
+            <p class="text-sm text-slate-300">Setup of Stripe checkout, admin logic, user access levels, and clean scalable backend structure.</p>
+          </div>
+        </div>
+        <div class="relative z-10">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white text-sm font-bold border-4 border-slate-900">3</div>
+        </div>
+        <div class="w-full md:w-1/2"></div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="flex flex-col md:flex-row items-center md:justify-between group">
+        <div class="w-full md:w-1/2"></div>
+        <div class="relative z-10">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white text-sm font-bold border-4 border-slate-900">4</div>
+        </div>
+        <div class="w-full md:w-1/2 md:pl-8 text-left flex flex-col items-start aos-init" data-aos="fade-left">
+          <div class="bg-slate-800 rounded-lg p-6 shadow-md max-w-md">
+            <h4 class="text-lg font-semibold text-white mb-1">🔧 Ongoing Support</h4>
+            <p class="text-sm text-slate-300">Bug fixing, scaling suggestions, feature additions, and re-launch support — if you need it, I’m in.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- AOS JS CDN -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ once: true });</script>
+
+
+<section id="contact" class="py-24 bg-slate-900 text-white text-center">
+  <h3 class="text-blue-400 text-sm uppercase tracking-wide mb-2">Work With Me</h3>
+  <h2 class="text-4xl font-bold mb-4">Looking for a Full-Time Role</h2>
+  <p class="text-gray-400 max-w-xl mx-auto mb-6">
+    I’ve built and flipped 10+ SaaS tools solo, handling UI, integrations, hosting, and monetization.
+    While I don't write code from scratch, I move fast and understand product deeply.
+    Now I’m ready to bring that mindset into a startup team as a <span class="text-white font-semibold">Product Builder or SaaS Operator</span>.
+  </p>
+  <a href="mailto:your@devselleragency@gmail.com" class="inline-block bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-md text-white font-semibold">
+    📩 Contact Me
+  </a>
+    </div>
+
+    <!-- Optional: Socials or Alt Contact -->
+    <div class="mt-8 text-sm text-gray-500">
+      Or reach out via 
+      <a href="https://t.me/yourusername" class="text-blue-400 hover:underline">Telegram</a>, 
+      <a href="https://www.linkedin.com/in/yourprofile/" class="text-blue-400 hover:underline">LinkedIn</a>, 
+      or 
+      <a href="https://calendly.com/yourname" class="text-blue-400 hover:underline">schedule a call</a>.
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-6">
+      <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-sm mb-4 md:mb-0">© 2025 Giovanni Parrota. All rights reserved.</p>
+        <div class="flex space-x-4">
+          <a href="#about" class="text-gray-400 hover:text-white text-sm">About</a>
+          <a href="#projects" class="text-gray-400 hover:text-white text-sm">Projects</a>
+          <a href="#services" class="text-gray-400 hover:text-white text-sm">Services</a>
+          <a href="#contact" class="text-gray-400 hover:text-white text-sm">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Dev Tools Easter Egg -->
+    <script>
+      console.log("%c👋 Ciao recruiter! Dai un’occhiata al codice: è tutto qui.", "font-size: 14px; color: teal;");
+    </script>
+  </body>
+</html>
